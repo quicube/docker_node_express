@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Sample",
+            // sampleフォルダにExpressプロジェクトを作成
+            "program": "${workspaceFolder}/sample/index.js",
+            // デバッグ対象のフォルダを変更
+            "cwd": "${workspaceFolder}/sample"
+        }
+    ]
+}
